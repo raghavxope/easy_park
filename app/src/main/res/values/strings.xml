@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">miniproject</string>
+    <string name="sedan">SEDAN</string>
+    <string name="hatchback">hatchback</string>
+    <string name="suv">suv</string>
+    <string name="title_activity_payment">payment</string>
+</resources>

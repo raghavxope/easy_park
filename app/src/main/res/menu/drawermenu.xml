@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/db" android:title="name"/>
+    <item android:id="@+id/db1" android:title="document"/>
+    <item android:id="@+id/db2" android:title="reservations"/>
+    <item android:id="@+id/db3" android:title="payments"/>
+    <item android:id="@+id/db4" android:title="logout"/>
+
+</menu>

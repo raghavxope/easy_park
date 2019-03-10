@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reservation">
+
+    <AbsoluteLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="121dp"
+        android:layout_y="67dp"
+        android:text="Start Timing"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="132dp"
+        android:layout_y="256dp"
+        android:text="Type of Car"
+        android:textSize="30dp" />
+
+
+    <TimePicker
+        android:layout_width="wrap_content"
+        android:layout_height="97dp"
+        android:layout_x="0dp"
+        android:layout_y="127dp"></TimePicker>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="60dp"
+        android:layout_y="495dp"
+        android:text="PAY NOW" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="154dp"
+        android:layout_y="336dp"
+        android:text="@string/hatchback" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="281dp"
+        android:layout_y="333dp"
+        android:text="@string/sedan" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="45dp"
+        android:layout_y="333dp"
+        android:text="@string/suv" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="261dp"
+        android:layout_y="493dp"
+        android:text="PAY LATER" />
+    </AbsoluteLayout>
+    <android.support.design.widget.NavigationView
+
+        android:layout_width="299dp"
+        android:layout_height="1294dp"
+        android:layout_gravity="end"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/drawermenu">
+
+    </android.support.design.widget.NavigationView>
+
+
+</android.support.v4.widget.DrawerLayout>

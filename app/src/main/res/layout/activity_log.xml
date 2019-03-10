@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LOG">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="76dp"
+        android:layout_y="219dp"
+        android:text="User name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="77dp"
+        android:layout_y="273dp"
+        android:text="Password" />
+
+    <EditText
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_x="162dp"
+        android:layout_y="205dp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_x="162dp"
+        android:layout_y="267dp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="176dp"
+        android:layout_y="391dp"
+        android:text="SUBMIT" />
+</AbsoluteLayout>
